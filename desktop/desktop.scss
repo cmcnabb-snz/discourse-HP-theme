@@ -1,0 +1,125 @@
+@import 'variables';
+
+// Container
+// *------------------------------------------------*
+#main-outlet {
+  margin-top: 42px;
+  margin-bottom: 50px;
+  border-radius: 10px;
+  background: $color-cream;
+  width: 75%;
+  max-width: 1030px;
+  padding: 3em 3em 5%;
+  padding-bottom: 5% !important;
+  box-shadow: 0 8px 60px 0 rgb(251, 230, 225), 0 12px 90px 0 rgb(252, 215, 198);
+}
+
+// Navigation Bar
+// *------------------------------------------------*
+.nav-pills li a {  
+  &.active {
+    border-bottom: 2px solid $color-ice;
+    border-radius: $radius-2;
+    background: none;
+    color: $color-black;
+  }
+  &:hover {
+    border-radius: $radius-2;
+    background-color: $color-ice;
+    color: $color-white;
+    box-shadow: 0 0 25px -3px $color-ice;
+  }
+}
+
+.list-controls .combo-box .combo-box-header {
+  background: transparent;
+  color: $color-black;
+  border: 2px solid $color-cold;
+  border-radius: $radius-2;
+}
+
+// Topic List
+// *------------------------------------------------*
+table {
+  tbody {
+    border-top: 2px solid $color-ice;
+    tr {
+      border-bottom: 1px solid $color-cold;
+    }
+  }
+}
+
+// Topic Page
+// *------------------------------------------------*
+.topic-body, .topic-avatar {
+  border-top: 2px solid $color-ice;
+}
+
+.timeline-container .topic-timeline { 
+  .timeline-scrollarea {
+    border-color: $color-ice;
+  }
+  .timeline-handle {
+    background-color: $color-ice;
+  }
+}
+
+// Buttons
+// *------------------------------------------------*
+.btn {
+  border-radius: $radius-4;
+  background: transparent;
+  color: $color-black;
+  text-transform: uppercase;
+  .discourse-no-touch & {
+    &:hover, 
+    &.btn-hover {
+      color: $color-white;
+      background: $color-fire;
+      box-shadow: 0 0 25px -3px $color-fire;
+      .d-icon {
+        color: $color-white;
+      }
+    }
+    &.close:hover {
+      box-shadow: none;
+    }
+  }
+  &:hover, 
+  &.btn-hover {
+    color: $color-black;
+    background: $color-orange;
+    .d-icon {
+      color: $color-black;
+    }
+  }
+  &:active, 
+  &.btn-active {
+    background-image: none;
+    background-color: $color-orange;
+    color: $color-black;
+    .d-icon {
+      color: $color-black;
+    }
+  } 
+}
+
+.btn-danger {
+  background: $danger;
+  color: $color-white;
+  .discourse-no-touch & {
+    &:hover, 
+    &.btn-hover {
+     background: $danger-hover;
+     color: $color-white;
+    }
+  }
+}
+
+.btn-primary {
+  background: $color-ice;
+  color: $color-white;
+  .d-icon {
+    color: $color-white;
+  }
+}

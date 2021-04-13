@@ -1,0 +1,13 @@
+{
+  "name": "discourse-fire-ice-theme",
+  "about_url": "",
+  "license_url": "",
+  "authors": "Meghna",
+  "color_schemes": {
+    "fire-ice": {
+      "primary": "222222",
+      "secondary": "F8FAFA"
+    }
+  },
+  "learn_more": "https://meta.discourse.org/t/beginners-guide-to-using-discourse-themes/91966"
+}
