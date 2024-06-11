@@ -6,35 +6,35 @@
   margin-top: 42px;
   margin-bottom: 50px;
   border-radius: 10px;
-  background: $color-cream;
+  background: $color-white;
   width: 75%;
   max-width: 1030px;
   padding: 3em 3em 5%;
   padding-bottom: 5% !important;
-  box-shadow: 0 8px 60px 0 rgb(251, 230, 225), 0 12px 90px 0 rgb(252, 215, 198);
+  /*box-shadow: 0 8px 60px 0 rgb(161, 161, 161), 0 12px 90px 0 rgb(252, 215, 198);*/
 }
 
 // Navigation Bar
 // *------------------------------------------------*
 .nav-pills li a {  
   &.active {
-    border-bottom: 2px solid $color-ice;
+    border-bottom: 2px solid $color-hpteal;
     border-radius: $radius-2;
     background: none;
     color: $color-black;
   }
   &:hover {
     border-radius: $radius-2;
-    background-color: $color-ice;
+    background-color: $color-hpteal;
     color: $color-white;
-    box-shadow: 0 0 25px -3px $color-ice;
+    /*box-shadow: 0 0 25px -3px $color-ice;*/
   }
 }
 
 .list-controls .combo-box .combo-box-header {
   background: transparent;
   color: $color-black;
-  border: 2px solid $color-cold;
+  border: 2px solid $color-hpteal;
   border-radius: $radius-2;
 }
 
@@ -76,7 +76,7 @@ table {
     &.btn-hover {
       color: $color-white;
       background: $color-fire;
-      box-shadow: 0 0 25px -3px $color-fire;
+      /*box-shadow: 0 0 25px -3px $color-fire;*/
       .d-icon {
         color: $color-white;
       }
