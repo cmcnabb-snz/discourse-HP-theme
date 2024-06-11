@@ -1,8 +1,8 @@
 {
-  "name": "discourse-fire-ice-theme",
+  "name": "discourse-HealthPathways-theme",
   "about_url": "",
   "license_url": "",
-  "authors": "Meghna",
+  "authors": "Cameron McNabb",
   "color_schemes": {
     "fire-ice": {
       "primary": "222222",
